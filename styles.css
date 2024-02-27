@@ -1,3 +1,21 @@
-h1 {
-    position: fixed;
+.main-title {
+    color: brown;
+}
+
+.container {
+    display: flex;
+    border: 2px solid red;
+    justify-content: center;
+}
+
+.ingredients {
+    border: 2px solid blue;
+    min-width: 45%;
+    justify-content: center;
+}
+
+.recipes {
+    border: 2px solid green;
+    min-width: 45%;
+    justify-content: center;
 }
