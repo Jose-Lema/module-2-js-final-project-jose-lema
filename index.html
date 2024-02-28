@@ -15,40 +15,41 @@
             <p>Ingredients</p>
         </div>
         <div class="recipes">
-            <p>Recipes</p>
-            <form action="">
-                <fieldset>
-                    <legend>Recipe Selection!</legend>
-                    <label for="recipe-selection">Please choose a recipe!</label>
-                    <select name="recipe-selection" id="recipes">
-                        <option value = "" disabled = true selected = true>Select a Recipe</option>
-                        <optgroup label="Beginner Recipes">
-                            <option>Mac & Cheese</option>
-                            <option>Tomato Soup</option>
-                            <option>Baked Potatoes</option>
-                        </optgroup>
-                        <optgroup label="Medium Recipes">
-                            <option>Sausage Pasta</option>
-                            <option>Minestrone</option>
-                            <option>Street Tacos</option>
-                        </optgroup>
-                        <optgroup label="Hard Recipes">
-                            <option>Chicken Tikka Masala</option>
-                            <option>Chicken Yakitori</option>
-                            <option>Beef Bulgolgi</option>
-                        </optgroup>
-                    </select>
-                    <button>Select</button>
-                    <div class="req-ing">
-                        <ul>
-                            <li><label for="Ingredient #1"><input type="checkbox" name="Ingredient #1">Ingredient #1</label></li>
-                            <li><label for="Ingredient #2"><input type="checkbox" name="Ingredient #2">Ingredient #2</label></li>
-                            <li><label for="Ingredient #3"><input type="checkbox" name="Ingredient #3">Ingredient #3</label></li>
-                        </ul>
-                    </div>
-                </fieldset>
-            </form>
+            <fieldset>
+                <legend>Recipe Selection!</legend>
+                <label for="recipe-selection">Please choose a recipe!</label>
+                <select name="recipe-selection" id="recipes">
+                    <option value = "" disabled = true selected = true>Select a Recipe</option>
+                    <optgroup label="Beginner Recipes">
+                        <option>Mac & Cheese</option>
+                        <option>Tomato Soup</option>
+                        <option>Baked Potatoes</option>
+                    </optgroup>
+                    <optgroup label="Medium Recipes">
+                        <option>Sausage Pasta</option>
+                        <option>Minestrone</option>
+                        <option>Street Tacos</option>
+                    </optgroup>
+                    <optgroup label="Hard Recipes">
+                        <option>Chicken Tikka Masala</option>
+                        <option>Chicken Yakitori</option>
+                        <option>Beef Bulgolgi</option>
+                    </optgroup>
+                </select>
+                <button onclick="setIngredients" id="selection">Select</button>
+                
+                <p id="testing"></p>
+
+                <div>
+                    <ul class="req-ing">
+                        <li><input type="checkbox" name="Ingredient #1"><label for="Ingredient #1" id="ing1">Ingredient #1</label></li>
+                        <li><input type="checkbox" name="Ingredient #2"><label for="Ingredient #2" id="ing2">Ingredient #2</label></li>
+                        <li><input type="checkbox" name="Ingredient #3"><label for="Ingredient #3" id="ing3">Ingredient #3</label></li>
+                    </ul>
+                </div>
+            </fieldset>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>

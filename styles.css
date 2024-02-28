@@ -19,3 +19,12 @@
     min-width: 45%;
     justify-content: center;
 }
+
+.ing-list {
+    border: 2px dashed;
+    justify-content: flex-start;
+}
+
+.req-ing {
+    list-style-type: none;
+}
