@@ -1,5 +1,7 @@
 .main-title {
     color: brown;
+    display: flex;
+    justify-content: center;
 }
 
 .container {
@@ -25,6 +27,6 @@
     justify-content: flex-start;
 }
 
-.req-ing {
+ul > li {
     list-style-type: none;
 }

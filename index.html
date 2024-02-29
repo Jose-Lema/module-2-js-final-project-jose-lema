@@ -13,6 +13,14 @@
     <div class = "container">
         <div class="ingredients">
             <p>Ingredients</p>
+            <input type="text" placeholder="Insert Ingredient to Pantry" id="ing-entry">
+            <button id="pantry-submit">Submit</button>
+
+            <ul id="ing-list">
+                <li><input type="checkbox">Cheese</li>
+                <li><input type="checkbox">Pasta</li>
+                <li><input type="checkbox">Milk</li>            
+            </ul>
         </div>
         <div class="recipes">
             <fieldset>
@@ -38,7 +46,7 @@
                 </select>
                 <button onclick="setIngredients" id="selection">Select</button>
                 
-                <p id="testing"></p>
+                <p id="recipe-name"></p>
 
                 <div>
                     <ul class="req-ing">

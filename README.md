@@ -11,3 +11,8 @@
 >3 Hours
 * Did MDN research on how to properly format the separate flexboxes and styling
 * Created outer framework for the recipe selection
+
+## 2/28/24
+>4 Hours
+* Did MDN research on how to properly format the javascript to add localstorage
+* Created outer framework for the ingredient storage
